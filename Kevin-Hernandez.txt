@@ -35,24 +35,43 @@ Here is a new file. Yay!
 
     17. What is CSS used for? for styling a webpage
 
-    18. How to we select an element? Example - every h2 on the page by putting h2 then what you want to change
+    18. How to we select an element? Example - every h2 on the page. by putting h2 then what you want to change
 
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class can be used to select more than one element. An id is used to select only one element.
+ex. one use and id for something very unique like a h1 heading (since there's only 1 of them) and use a class for <div> since you can use it muliple times
+
+    20. How do we select classes in CSS? ."then the class name"
+
+    21. How do we select a p element with a single class of “human””? .human p
+
+    22. What is a parent child selector? When would this be useful? parent > child. Useful when trying to change a specific child within a specific parent.
+
+    23. How do you select all links within a div with the class of sidebar? By #sidebar
+
+    24. What is a pseudo selector? It styles a specific part of an element.
+
+    25. What do we use the change the spacing between lines? line-height: 
+
     26. What do we use to change the spacing between letters?
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+
+    29. How do I select everything on the page? right-click then select all
+
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+
+    31. How do I find out what file I am in, when I am using the command line? type ls
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
     34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+
+    35. How often should I commit to github? Everytime you change something meaniful.
+
+    36. What is the command we would use to push our repo up to github? git push origin "your branch name"
+
     37. Walk me through Lambda's git flow. 
