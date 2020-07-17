@@ -1,0 +1,85 @@
+https://codepen.io/KevinH1/full/pogZRLv
+Here is a new file. Yay!
+
+1. What is Semantic HTML? describes its own meaning.
+
+    2. What is HTML used for? It's used for documents to be displayed in a browser. 
+
+    3. What is an attribute and where do we put it? provides addtional info about elements. Used when adding a link to something.
+
+    4. What is the h1 tag used for? How many times should I use it on a page? H1 is used for the most important "title" on the page. It can only be used once.
+
+    5. Name two tags that have required attributes <img> and <a>
+
+    6. What do we put in the head of our HTML document? <html> tag
+
+    7. What is an id? Its used to name an element
+
+    8. What elements can I add an id to? All of them. Its part of the Global Attributes
+
+    9. How many times can I use the same id on a page? Once
+
+    10. What is a class? specifies one or more classnames for an element
+
+    11. What elements can I add a class to? All of them
+
+    12. How many times can I use the same class on a page? Unlimited
+
+    13. How do I get my link to open in a new tab? just by adding target="_blank"
+
+    14. What is the alt attribute in the image tag used for? used for an alternate text if the img doesn't work
+
+    15. How do I reference an id? # then the name of the id
+
+    16. What is the difference between a section and a div? Section offers importance while div does not
+
+    17. What is CSS used for? for styling a webpage
+
+    18. How to we select an element? Example - every h2 on the page. by putting h2 then what you want to change
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class can be used to select more than one element. An id is used to select only one element.
+ex. one use and id for something very unique like a h1 heading (since there's only 1 of them) and use a class for <div> since you can use it muliple times
+
+    20. How do we select classes in CSS? ."then the class name"
+
+    21. How do we select a p element with a single class of “human””? .human p
+
+    22. What is a parent child selector? When would this be useful? parent > child. Useful when trying to change a specific child within a specific parent.
+
+    23. How do you select all links within a div with the class of sidebar? By #sidebar
+
+    24. What is a pseudo selector? It styles a specific part of an element.
+
+    25. What do we use the change the spacing between lines? line-height: 
+
+    26. What do we use to change the spacing between letters? letter-spacing:
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?text-transform:uppercase;text-transform:lowercase;text-transform:capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black? div{ border-width: 1px;}
+
+    29. How do I select everything on the page? right-click then select all
+
+    30. How do I write a comment in CSS? /*
+
+    31. How do I find out what file I am in, when I am using the command line? type ls
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? type ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? git rm. You have to be carful because it won't ask you again if you are sure you want to delete the file.
+
+    34. Why should I use version control? Its useful when working in a multi-person team where everyone is working on the same project makeing changes. It helps with preventing any conflicts that may arise.
+
+    35. How often should I commit to github? Everytime you change something meaniful.
+
+    36. What is the command we would use to push our repo up to github? git push origin "your branch name"
+
+    37. Walk me through Lambda's git flow. 
+    First you will have to fork it to then add it to your own github
+    Then add your TL as a collaborator
+    copy the repo and launch git bash
+    paste it and create your own branch
+    make the changes needed and commit often!
+    use git commands like git add. and git commit -m " a message"
+    then push up the branch using git push origin <your-branch-name>
+    create a pull request and add your TL as a reviewer
